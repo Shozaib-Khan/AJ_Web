@@ -1,0 +1,387 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+
+</head>
+<body>
+
+  <div class="space-y-4">
+    
+  
+    <header class="flex flex-wrap sm:justify-start sm:flex-nowrap w-6/12 m-auto bg-black-1000 text-sm py-4 rounded-3xl" style="background-color: #1d1f21ed;">
+      <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:w-full" aria-label="Global">
+        <div class="flex items-center justify-between">
+          <a class="flex-none text-xl font-semibold text-white" href="#">Anshara</a>
+          <div class="sm:hidden">
+            <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-lg border border-white/20 font-medium bg-blue-600 text-white shadow-sm align-middle hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-blue-600 focus:ring-white transition-all text-sm" data-hs-collapse="#navbar-primary" aria-controls="navbar-primary" aria-label="Toggle navigation">
+              <svg class="hs-collapse-open:hidden flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg>
+            <svg class="hs-collapse-open:block hidden flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            </button>
+          </div>
+        </div>
+        <div id="navbar-primary" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
+          <div class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
+            
+            <a class="font-medium text-gray-300 hover:text-white" href="#">Home</a>
+            <a class="font-medium text-gray-300 hover:text-white" href="#">Book Reviews</a>
+            <a class="font-medium text-gray-300 hover:text-white" href="#">Blogs</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </div>
+  
+<!--
+<nav class="flex flex-wrap items-center justify-between p-4 bg-white">
+    <div class="w-auto lg:order-2 lg:w-1/5 lg:text-center">
+        <a class="text-xl font-semibold text-gray-800 font-heading" href="#">
+            Anshara Jahan
+        </a>
+    </div>
+    <div class="block lg:hidden">
+        <button class="flex items-center px-3 py-2 text-indigo-500 border border-indigo-500 rounded navbar-burger">
+            <svg class="w-3 h-3 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <title>
+                    Menu
+                </title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z">
+                </path>
+            </svg>
+        </button>
+    </div>
+    <div class="hidden w-full navbar-menu lg:order-1 lg:block lg:w-2/5">
+        <a class="block mt-4 mr-10 text-blue-900 lg:inline-block lg:mt-0 hover:text-indigo-600" href="#">
+            Home
+        </a>
+        <a class="block mt-4 mr-10 text-blue-900 lg:inline-block lg:mt-0 hover:text-indigo-600" href="#">
+            Team
+        </a>
+        <a class="block mt-4 text-blue-900 lg:inline-block lg:mt-0 hover:text-indigo-600" href="#">
+            Galery
+        </a>
+    </div>
+    <div class="hidden w-full navbar-menu lg:order-3 lg:block lg:w-2/5 lg:text-right">
+        <a class="block mt-4 mr-10 text-blue-900 lg:inline-block lg:mt-0 hover:text-indigo-600" href="#">
+            Content
+        </a>
+        <a class="block mt-4 mr-10 text-blue-900 lg:inline-block lg:mt-0 hover:text-indigo-600" href="#">
+            FAQ
+        </a>
+        <a class="block mt-4 text-blue-900 lg:inline-block lg:mt-0 hover:text-indigo-600" href="#">
+            Contact
+        </a>
+    </div>
+</nav>
+-->
+<section class="mx-auto max-w-screen-2xl px-4 md:px-8">
+  <div class="mb-8 flex flex-wrap justify-between md:mb-16">
+    <div class="mb-6 flex w-full flex-col justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
+      <h1 class="mb-4 text-4xl font-bold text-black sm:text-5xl md:mb-8 md:text-6xl">Hi, I'm<br />Anshara Jahan</h1>
+
+      <p class="max-w-md leading-relaxed text-gray-500 xl:text-lg">Writer, Poet, Reader and most of all Overthinker. I Love to read new books and create content ranging from articles to short movies.</p>
+    </div>
+
+    <div class="mb-12 flex w-full md:mb-16 lg:w-2/3">
+      <div class="relative left-12 top-12 z-10 -ml-12 overflow-hidden rounded-lg bg-gray-100 shadow-lg md:left-16 md:top-16 lg:ml-0">
+        <img src="aj.jpg" loading="lazy" alt="Photo by Kaung Htet" class="h-full w-full object-cover object-center" />
+      </div>
+
+      <div class="overflow-hidden rounded-lg bg-gray-100 shadow-lg">
+        <img src="aj.jpg" loading="lazy" alt="Photo by Manny Moreno" class="h-full w-full object-cover object-center" />
+      </div>
+    </div>
+  </div>
+
+  
+
+    
+    
+   
+  </div>
+
+ <!--  
+</section>
+
+    <div>
+        <section class="py-28">
+          <div
+            class="max-w-screen-xl mx-auto text-gray-600 gap-x-12 items-center justify-between overflow-hidden md:flex md:px-8"
+          >
+            <div class="flex-none space-y-5 px-4 sm:max-w-lg md:px-0 lg:max-w-xl">
+              <h1 class="text-sm text-indigo-600 font-medium -mb-5 ml-2">
+                Hi, I am
+              </h1>
+              <h2 class="text-4xl text-gray-800 font-extrabold md:text-5xl">
+                Anshara Jahan
+              </h2>
+              <p>
+                Writer, Poet, Reader and most of all Overthinker. I Love to read new books and create content ranging from articles to short movies. 
+              </p>
+              <div class="items-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
+                <a
+                  href="javascript:void(0)"
+                  class="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none"
+                >
+                  Resume
+                </a>
+                <a
+                  href="javascript:void(0)"
+                  class="flex items-center justify-center gap-x-2 py-2 px-4 text-gray-700 hover:text-gray-500 font-medium duration-150 active:bg-gray-100 border rounded-lg md:inline-flex"
+                  >Blogs<svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    class="w-5 h-5"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M2 10a.75.75 0 01.75-.75h12.59l-2.1-1.95a.75.75 0 111.02-1.1l3.5 3.25a.75.75 0 010 1.1l-3.5 3.25a.75.75 0 11-1.02-1.1l2.1-1.95H2.75A.75.75 0 012 10z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="flex-none mt-14 md:mt-0 md:max-w-xl">
+              <img
+                src="aj.jpg"
+                class="md:rounded-tl-[108px]"
+                alt=""
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+-->
+
+<h1 class="mb-4 text-4xl font-bold text-black sm:text-5xl md:mb-8 md:text-6xl text-center">Book Reviews</h1>
+      <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div class="grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
+          <div class="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+            <img src="https://static.wixstatic.com/media/0033e9_7553d496c17b4c9a94110ce99411639f~mv2.jpg/v1/fit/w_1000%2Ch_659%2Cal_c%2Cq_80,enc_auto/file.jpg" class="object-cover w-full h-64" alt="" />
+            <div class="p-5 border border-t-0">
+              <p class="mb-3 text-xs font-semibold tracking-wide uppercase">
+                <a href="/" class="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700" aria-label="Category" title="traveling">Haruki</a>
+                <span class="text-gray-600">Murakami</span>
+              </p>
+              <a href="/" aria-label="Category" title="Visit the East" class="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">Norwegian Wood</a>
+              <p class="mb-2 text-gray-700">
+                Norwegian wood blah blah blah blah blah blah blah blah Murakami blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.
+              </p>
+              <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
+            </div>
+          </div>
+          <div class="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+            <img src="https://facts.net/wp-content/uploads/2023/09/11-astonishing-facts-about-lolita-vladimir-nabokov-1695640747.jpg" class="object-cover w-full h-64" alt="" />
+            <div class="p-5 border border-t-0">
+              <p class="mb-3 text-xs font-semibold tracking-wide uppercase">
+                <a href="/" class="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700" aria-label="Category" title="traveling">Vladimir
+                </a>
+                <span class="text-gray-600">Nabokov</span>
+              </p>
+              <a href="/" aria-label="Category" title="Simple is better" class="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">Lolita</a>
+              <p class="mb-2 text-gray-700">
+                Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque blah blah blah blah blah blah blah blah blah.
+              </p>
+              <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
+            </div>
+          </div>
+          <div class="overflow-hidden transition-shadow duration-300 bg-white rounded shadow-sm">
+            <img src="https://miro.medium.com/v2/resize:fit:1144/0*tQ0CdoTItIGpDjLG" class="object-cover w-full h-64" alt="" />
+            <div class="p-5 border border-t-0">
+              <p class="mb-3 text-xs font-semibold tracking-wide uppercase">
+                <a href="/" class="transition-colors duration-200 text-blue-gray-900 hover:text-deep-purple-accent-700" aria-label="Category" title="traveling">Hector</a>
+                <span class="text-gray-600">Garcia</span>
+              </p>
+              <a href="/" aria-label="Category" title="Film It!" class="inline-block mb-3 text-2xl font-bold leading-5 transition-colors duration-200 hover:text-deep-purple-accent-700">Ikigai</a>
+              <p class="mb-2 text-gray-700">
+                Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque blah blah blah blah blah blah blah blah blah.
+              </p>
+              <a href="/" aria-label="" class="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <h1 class="mb-4 text-4xl font-bold text-black sm:text-5xl md:mb-8 md:text-6xl text-center">Blogs</h1>
+      <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+        <div class="grid gap-10 row-gap-8 lg:grid-cols-5">
+          <div class="lg:col-span-2">
+            <p class="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase">
+              20 Nov 2020
+            </p>
+            <div class="mb-3">
+              <a href="/" aria-label="Article" class="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-400">
+                <p class="font-sans text-xl font-extrabold leading-none tracking-tight lg:text-4xl xl:text-5xl">
+                  What it means when a man falls from outer space
+                </p>
+              </a>
+            </div>
+            <p class="mb-4 text-base text-gray-700 md:text-lg">
+              Call it magical realism, call it realistic fantasy—call it whatever you want, but Arimah's playfully subversive style is wholly her own.
+            </p>
+            <div class="flex items-center">
+              <a href="/" aria-label="Author" class="mr-3">
+                <img alt="avatar" src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" class="object-cover w-10 h-10 rounded-full shadow-sm" />
+              </a>
+              <div>
+                <a href="/" aria-label="Author" class="font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-400">Petru Vîrtos</a>
+                <p class="text-sm font-medium leading-4 text-gray-600">Author</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col space-y-8 lg:col-span-3">
+            <div>
+              <p class="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase">
+                14 Jul 2020
+              </p>
+              <div class="mb-3">
+                <a href="/" aria-label="Article" class="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-400">
+                  <p class="font-sans text-xl font-extrabold leading-none tracking-tight lg:text-2xl">
+                    Mascarpone cheese triangles taleggio
+                  </p>
+                </a>
+              </div>
+              <p class="mb-4 text-base text-gray-700 md:text-lg">
+                Brie cheese triangles cheesecake. Cauliflower cheese cheese and wine manchego bocconcini croque monsieur queso airedale brie.
+              </p>
+              <div class="flex items-center">
+                <a href="/" aria-label="Author" class="mr-3">
+                  <img alt="avatar" src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260" class="object-cover w-10 h-10 rounded-full shadow-sm" />
+                </a>
+                <div>
+                  <a href="/" aria-label="Author" class="font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-400">Alex Stratulat</a>
+                  <p class="text-sm font-medium leading-4 text-gray-600">Author</p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p class="mb-2 text-xs font-semibold tracking-wide text-gray-600 uppercase">
+                18 Mar 2020
+              </p>
+              <div class="mb-3">
+                <a href="/" aria-label="Article" class="inline-block text-black transition-colors duration-200 hover:text-deep-purple-accent-400">
+                  <p class="font-sans text-xl font-extrabold leading-none tracking-tight lg:text-2xl">
+                    The quick, brown fox jumps over a lazy dog
+                  </p>
+                </a>
+              </div>
+              <p class="mb-4 text-base text-gray-700 md:text-lg">
+                "A kitten, a nice little, sleek playful kitten, that I can play with, and teach, and feed--and feed--and feed!" I was not unprepared for this request, for I had noticed how his pets went on increasing in size.
+              </p>
+              <div class="flex items-center">
+                <a href="/" aria-label="Author" class="mr-3">
+                  <img alt="avatar" src="https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" class="object-cover w-10 h-10 rounded-full shadow-sm" />
+                </a>
+                <div>
+                  <a href="/" aria-label="Author" class="font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-400">Susie the Cat</a>
+                  <p class="text-sm font-medium leading-4 text-gray-600">Author</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- 
+<form class="flex w-full max-w-sm space-x-3">
+    <div class="w-full max-w-2xl px-5 py-10 m-auto mt-10 bg-white rounded-lg shadow ">
+        <div class="mb-6 text-3xl font-light text-center text-gray-800 text-dark">
+            Contact us !
+        </div>
+        <div class="grid max-w-xl grid-cols-2 gap-4 m-auto">
+            <div class="col-span-2 lg:col-span-1">
+                <div class=" relative ">
+                    <input type="text" id="contact-form-name" class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-900 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Name"/>
+                    </div>
+                </div>
+                <div class="col-span-2 lg:col-span-1">
+                    <div class=" relative ">
+                        <input type="text" id="contact-form-email" class=" rounded-lg border-transparent flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="email"/>
+                        </div>
+                    </div>
+                    <div class="col-span-2">
+                        <label class="text-gray-700" for="name">
+                            <textarea class="flex-1 w-full px-4 py-2 text-base text-gray-700 placeholder-gray-400 bg-white border border-gray-300 rounded-lg appearance-none focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" id="comment" placeholder="Enter your comment" name="comment" rows="5" cols="40">
+                            </textarea>
+                        </label>
+                    </div>
+                    <div class="col-span-2 text-right">
+                        <button type="submit" class="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                            Send
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+-->     
+
+<div class="py-6 sm:py-8 lg:py-12">
+  <div class="mx-auto max-w-screen-xl px-4 md:px-8">
+    <h2 class="mb-8 text-center text-2xl font-bold text-gray-800 md:mb-12 lg:text-3xl">What others say about me</h2>
+
+    <div class="grid gap-4 md:grid-cols-2 md:gap-8">
+      <!-- quote - start -->
+      <div class="bg-white flex flex-col items-center gap-4 rounded-lg bg-indigo-500 px-8 py-6 md:gap-6">
+        <div class="max-w-md text-center text-black lg:text-lg">“This is a section of some simple filler text, also known as placeholder text.”</div>
+
+        <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
+          <div class="h-12 w-12 overflow-hidden rounded-full border-2 border-indigo-100 bg-gray-100 md:h-14 md:w-14">
+            <img src="https://images.unsplash.com/photo-1567515004624-219c11d31f2e??auto=format&q=75&fit=crop&w=112" loading="lazy" alt="Photo by Radu Florin" class="h-full w-full object-cover object-center" />
+          </div>
+
+          <div>
+            <div class="text-center text-sm font-bold text-black-50 sm:text-left md:text-base">John McCulling</div>
+            <p class="text-center text-sm text-black-200 sm:text-left md:text-sm">CEO / Datadrift</p>
+          </div>
+        </div>
+      </div>
+      <!-- quote - end -->
+
+      <!-- quote - start -->
+      <div class="bg-white flex flex-col items-center gap-4 rounded-lg bg-indigo-500 px-8 py-6 md:gap-6">
+        <div class="max-w-md text-center text-black lg:text-lg">“This is a section of some simple filler text, also known as placeholder text.”</div>
+
+        <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
+          <div class="h-12 w-12 overflow-hidden rounded-full border-2 border-indigo-100 bg-gray-100 md:h-14 md:w-14">
+            <img src="https://images.unsplash.com/photo-1532073150508-0c1df022bdd1?auto=format&q=75&fit=crop&w=112" loading="lazy" alt="Photo by christian ferrer" class="h-full w-full object-cover object-center" />
+          </div>
+
+          <div>
+            <div class="text-center text-sm font-bold text-black-50 sm:text-left md:text-base">Kate Berg</div>
+            <p class="text-center text-sm text-black-200 sm:text-left md:text-sm">CFO / Dashdash</p>
+          </div>
+        </div>
+      </div>
+      <!-- quote - end -->
+    </div>
+  </div>
+</div>
+
+<footer class="bg-white flex flex-col justify-center m-5">
+<hr>
+  <p class="text-center text-black-200 font-medium "><a href="#">About</a> &nbsp;  <a href="#">Books</a> &nbsp; <a href="#">Blogs</a> </p>
+
+  <div class="flex justify-center space-x-5">
+      <a href="mailto:ansharajahan2003@gmail.com" target="_blank" rel="noopener noreferrer">
+          <img src="/gmail.svg" />
+      </a>
+      <a href="https://www.linkedin.com/in/anshra-jahan-351579279/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
+      </a>
+      <a href="https://www.instagram.com/thenbhd/" target="_blank" rel="noopener noreferrer">
+          <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
+      </a>
+      
+  </div>
+  
+</footer>
+
+
+</body>
+</html>
